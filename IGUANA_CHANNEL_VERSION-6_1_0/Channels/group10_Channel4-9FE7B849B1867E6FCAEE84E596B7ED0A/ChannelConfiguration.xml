@@ -1,0 +1,19 @@
+<channel
+   name="group10_Channel4"
+   guid="9FE7B849B1867E6FCAEE84E596B7ED0A"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="group10_Channel4-To-b6MG7Ak4unlkxu"
+      commit_id="ca95f72b9cf555fd47c2c74b3b0f2cbcd0e4131d"
+      commit_comment="10-4">
+      <dequeue_list>
+         <dequeue
+            source_name="group10_Channel1"
+            dequeue_guid="ABB9880852D54AE4C5C2A3370DCD32A7"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+</channel>
